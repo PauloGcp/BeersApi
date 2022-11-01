@@ -1,5 +1,5 @@
-import Layout from './Layout';
-import Pages from './pages';
+import Layout from './components/Layout';
+import Pages from './components/Pages';
 
 function App() {
   return (

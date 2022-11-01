@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Beers Api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## URL de acesso:
 
-## Available Scripts
+https://paulogcp.github.io/testePages/
 
-In the project directory, you can run:
+(o link gerado pelo github pages não aceita a navegação através de uma rota direta como `https://paulogcp.github.io/list`. A navegação dentro da aplicação deve ser feita a partir dos botões designados à navegação entre as rotas, como o botão `Listar` e `Sobre`)
 
-### `npm start`
+## Sobre o projeto:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A aplicação consiste em uma listagem de componentes (cards de cervejas) que são formados através dos dados consumidos da API `punkApi`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Ferramentas/ tecnologias utilizadas:
+- React (redux, react-routes, redux-toolkit, react-paginate, etc.)
+- Webpack - Babel
+- Node
+- Axios
 
-### `npm test`
+# Scripts:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto conta com 3 scripts principais:
 
-### `npm run build`
+`npm start` : roda a aplicação através do webpack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm run dev`: script criado para rodar a aplicação independente do webpack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm build` : faz o build da aplicação (o arquivo gerado a partir do build foi utilizado para fazer o deploy no github pages) 

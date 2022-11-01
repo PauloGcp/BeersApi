@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ReactPaginate from 'react-paginate';
 
-import { getAllBeers } from '../../store/fetchActions'
-import Beer from "../../components/Beer";
+import { getAllBeers } from '../../../store/fetchActions'
+import Beer from "../../Beer";
 
 
 const List = () => {
