@@ -25,3 +25,7 @@ O projeto conta com 3 scripts principais:
 `npm run dev`: script criado para rodar a aplicação independente do webpack
 
 `npm build` : faz o build da aplicação (o arquivo gerado a partir do build foi utilizado para fazer o deploy no github pages) 
+
+# Como rodar o projeto:
+
+`git clone git@github.com:PauloGcp/BeersApi.git` -> `npm install` -> `npm start` ou `npm run dev`
